@@ -1,12 +1,12 @@
-numeric_vector <- c(10, 20, 30, 40, 50)
-character_vector <- c("Alice", "Bob", "Charlie", "Diana", "Ethan")
-logical_vector <- c(TRUE, FALSE, TRUE, FALSE, TRUE)
+numbers <- c(10, 20, 30, 40, 50)
+names <- c("Alice", "Bob", "Charlie", "Diana", "Ethan")
+flags <- c(TRUE, FALSE, TRUE, FALSE, TRUE)
 
-print(numeric_vector)
-print(paste("Type:", class(numeric_vector)))
+print(numbers)
+print(class(numbers))
 
-print(character_vector)
-print(paste("Type:", class(character_vector)))
+print(names)
+print(class(names))
 
-print(logical_vector)
-print(paste("Type:", class(logical_vector)))
+print(flags)
+print(class(flags))

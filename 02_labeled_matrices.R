@@ -1,7 +1,6 @@
 matrix_5x4 <- matrix(
   1:20,
   nrow = 5,
-  ncol = 4,
   byrow = TRUE,
   dimnames = list(
     paste0("Row", 1:5),
@@ -12,7 +11,6 @@ matrix_5x4 <- matrix(
 matrix_3x3 <- matrix(
   1:9,
   nrow = 3,
-  ncol = 3,
   byrow = FALSE,
   dimnames = list(
     paste0("Row", 1:3),
@@ -23,7 +21,6 @@ matrix_3x3 <- matrix(
 matrix_2x2 <- matrix(
   1:4,
   nrow = 2,
-  ncol = 2,
   byrow = TRUE,
   dimnames = list(
     paste0("Row", 1:2),

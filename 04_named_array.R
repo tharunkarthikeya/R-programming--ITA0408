@@ -1,6 +1,5 @@
-values <- 1:8
 named_array <- array(
-  values,
+  1:8,
   dim = c(2, 2, 2),
   dimnames = list(
     Rows = c("R1", "R2"),
